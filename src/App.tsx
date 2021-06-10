@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import ContadorValor from './components/ContadorValor'
+import Contador from './components/Contador'
 
 import './App.css';
 
@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-        <ContadorValor contador={5} />
+        <Contador   valorInicial={9874} />
       </div>
     )
   }

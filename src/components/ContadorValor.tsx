@@ -1,11 +1,10 @@
 import React from "react";
 
-interface ContadorValorProps {
+interface IContadorValorProps {
     contador: number;
 }
 
-const ContadorValor = (props: ContadorValorProps) => {
-    return <p>{props.contador}</p>;
-};
+const ContadorValor = (props: IContadorValorProps) => <p>{props.contador}</p>;
+
 
 export default ContadorValor;
