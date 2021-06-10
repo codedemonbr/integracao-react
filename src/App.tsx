@@ -8,6 +8,7 @@ class App extends Component {
     return(
       <div className="App">
         <Contador   valorInicial={9874} />
+        <Contador    />
       </div>
     )
   }
